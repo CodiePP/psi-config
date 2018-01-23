@@ -9,6 +9,11 @@ It intercepts calls into libc (on Linux and FreeBSD) and checks authorization an
 ![overview](https://github.com/CodiePP/psi-config/raw/master/doc/psi-overview.png)
 
 
+# GHCi
+
+```stack ghci src/Hash.hs```
+
+
 # References
 * [Calling_Haskell_from_C](https://wiki.haskell.org/Calling_Haskell_from_C): this helped me to understand the ``foreign export ccall``.
 * [Using shared libraries](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/shared_libs.html): it is not so easy to create a shared library with GHC.
@@ -16,5 +21,5 @@ It intercepts calls into libc (on Linux and FreeBSD) and checks authorization an
 
 
 # Copyright
-Copyright (c) 2017 by Alexander Diemand
+Copyright (c) 2018 by Alexander Diemand
 
